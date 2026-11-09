@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jean Yves Gnakri | Business & Technologie</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============ HEADER ============ -->
+    <header>
+      <nav>
+        <a href="#accueil" class="logo">GJY</a>
+        <button
+          class="menu-toggle"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ============ ACCUEIL ============ -->
+    <section id="accueil">
+      <div class="accueil-contenu">
+        <div class="accueil-texte">
+          <span class="badge-dispo">
+            <span class="pastille-animee"></span>
+            Disponible pour un stage
+          </span>
+
+          <p class="accueil-salutation">Bonjour, je suis</p>
+
+          <h1>Gnakri<br />Jean Yves</h1>
+
+          <p class="accueil-role">Business Analyste & Systèmes d'information</p>
+
+          <p class="accueil-accroche">
+            Je fais le lien entre les besoins des entreprises et les solutions
+            numériques qui les font grandir.
+          </p>
+
+          <div class="accueil-actions">
+            <a href="#projets" class="btn">Voir mes projets</a>
+            <a href="#contact" class="btn btn-outline">Me contacter</a>
+          </div>
+        </div>
+
+        <div class="accueil-photo">
+          <div class="photo-cadre">
+            <img
+              src="assets/images/profil.jpeg"
+              alt="Photo de Jean Yves Gnakri"
+            />
+          </div>
+        </div>
+      </div>
+
+      <a
+        href="#a-propos"
+        class="scroll-indicator"
+        aria-label="Défiler vers la suite"
+      >
+        <span></span>
+      </a>
+    </section>
+    <!-- ============ À PROPOS ============ -->
+    <section id="a-propos">
+      <h2>À propos</h2>
+      <div class="a-propos-texte">
+        <p>
+          Étudiant en fin de licence MIAGE, je me spécialise dans l'analyse des
+          besoins métier et la conception de systèmes d'information. J'ai déjà
+          réalisé des projets allant du site vitrine au système avec base de
+          données, en passant par la modélisation UML.
+        </p>
+        <p>
+          Je cherche aujourd'hui un stage ou une alternance où je pourrai mettre
+          en pratique l'analyse fonctionnelle et contribuer à des projets
+          concrets de transformation numérique.
+        </p>
+      </div>
+
+      <!-- Mini-stats pour occuper l'espace et crédibiliser -->
+      <div class="a-propos-stats">
+        <div class="stat">
+          <span class="stat-nombre">3</span>
+          <span class="stat-label">Projets réalisés</span>
+        </div>
+        <div class="stat">
+          <span class="stat-nombre">3</span>
+          <span class="stat-label">Années d'études MIAGE</span>
+        </div>
+        <div class="stat">
+          <span class="stat-nombre">2</span>
+          <span class="stat-label">Formations en cours</span>
+        </div>
+      </div>
+    </section>
+    <!-- ============ PROJETS ============ -->
+    <section id="projets">
+      <h2>Projets</h2>
+      <div class="projets-grille">
+        <article class="projet-carte">
+          <h3>Vitrine d'entreprise (L1)</h3>
+          <p>
+            Conception d'un site vitrine responsive pour une entreprise fictive.
+            Objectif : poser les bases du HTML/CSS et de la navigation mobile.
+          </p>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Responsive</li>
+          </ul>
+          <a href="#" class="btn">Voir le projet</a>
+        </article>
+
+        <article class="projet-carte">
+          <h3>Tourisme Ivoire (L2)</h3>
+          <p>
+            Site de présentation touristique des destinations ivoiriennes, avec
+            base de données MySQL et pages PHP pour afficher les destinations
+            dynamiquement.
+          </p>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+          <a href="#" class="btn">Voir le projet</a>
+        </article>
+
+        <article class="projet-carte">
+          <h3>
+            Modernisation d'un SI (L3) <span class="badge">En cours</span>
+          </h3>
+          <p>
+            Analyse et modélisation d'un système d'information d'entreprise :
+            diagrammes UML (cas d'utilisation, séquence, classe) et cahier des
+            charges fonctionnel.
+          </p>
+          <ul>
+            <li>UML</li>
+            <li>Cahier des charges</li>
+            <li>Analyse des besoins</li>
+          </ul>
+          <a href="#" class="btn">Voir le projet</a>
+        </article>
+      </div>
+    </section>
+    <!-- ============ COMPÉTENCES ============ -->
+    <section id="competences">
+      <h2>Compétences</h2>
+      <p class="legende-competences">
+        <span class="pastille pastille-verte"></span> Maîtrisé
+        <span class="pastille pastille-jaune"></span> En cours
+        <span class="pastille pastille-grise"></span> Notions
+      </p>
+      <div class="competences-grille">
+        <div class="competences-categorie">
+          <h3>Business Analyse & Data</h3>
+          <ul>
+            <li class="niveau-maitrise">UML</li>
+            <li class="niveau-encours">Excel</li>
+            <li class="niveau-encours">Power BI</li>
+          </ul>
+        </div>
+
+        <div class="competences-categorie">
+          <h3>Technologies</h3>
+          <ul>
+            <li class="niveau-maitrise">HTML</li>
+            <li class="niveau-maitrise">CSS</li>
+            <li class="niveau-notions">JavaScript</li>
+            <li class="niveau-encours">Python</li>
+            <li class="niveau-encours">Java</li>
+            <li class="niveau-encours">SQL</li>
+            <li class="niveau-notions">Dart</li>
+          </ul>
+        </div>
+
+        <div class="competences-categorie">
+          <h3>Outils</h3>
+          <ul>
+            <li class="niveau-maitrise">VS Code</li>
+            <li class="niveau-notions">Git</li>
+            <li class="niveau-notions">GitHub</li>
+            <li class="niveau-encours">Android Studio</li>
+            <li class="niveau-encours">IntelliJ IDEA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ============ SECTION CV ============ -->
+    <section id="cv" class="page-cv">
+      <div class="cv-intro">
+        <h2>Mes CV</h2>
+        <p>
+          Trois versions de mon CV, adaptées aux métiers que je vise. Choisis
+          celui qui correspond à ton besoin.
+        </p>
+      </div>
+
+      <div class="cv-grille">
+        <!-- CV Business Intelligence -->
+        <article class="cv-carte cv-bi">
+          <div class="cv-icone">📊</div>
+          <h3>Business Intelligence</h3>
+          <p class="cv-description">
+            Analyse décisionnelle, reporting et pilotage de la performance.
+          </p>
+          <ul class="cv-mots-cles">
+            <li>Power BI</li>
+            <li>Excel</li>
+            <li>SQL</li>
+            <li>Reporting</li>
+          </ul>
+          <a
+            href="assets/CV/cv-business-intelligence.pdf"
+            download
+            class="btn cv-btn"
+          >
+            Télécharger le CV
+          </a>
+        </article>
+
+        <!-- CV Data Analyse -->
+        <article class="cv-carte cv-data">
+          <div class="cv-icone">📈</div>
+          <h3>Data Analyse</h3>
+          <p class="cv-description">
+            Analyse de données, visualisation et extraction d'insights.
+          </p>
+          <ul class="cv-mots-cles">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Excel</li>
+            <li>Visualisation</li>
+          </ul>
+          <a href="assets/CV/cv-data-analyse.pdf" download class="btn cv-btn">
+            Télécharger le CV
+          </a>
+        </article>
+
+        <!-- CV Systèmes d'Information -->
+        <article class="cv-carte cv-si">
+          <div class="cv-icone">🗂️</div>
+          <h3>Systèmes d'Information</h3>
+          <p class="cv-description">
+            Analyse fonctionnelle, modélisation SI et transformation numérique.
+          </p>
+          <ul class="cv-mots-cles">
+            <li>UML</li>
+            <li>Cahier des charges</li>
+            <li>Analyse métier</li>
+            <li>Gestion de projet</li>
+          </ul>
+          <a
+            href="assets/CV/cv-systemes-information.pdf"
+            download
+            class="btn cv-btn"
+          >
+            Télécharger le CV
+          </a>
+        </article>
+      </div>
+
+      <div class="cv-note">
+        <p>
+          💡 <strong>Besoin d'une version personnalisée ?</strong>
+          <a href="#contact">Contacte-moi</a> et je t'envoie un CV adapté à ton
+          offre.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Et si nous construisions quelque chose d'extraordinaire ensemble ? Je
+        suis toujours ouvert à de nouvelles opportunités et collaborations.
+        N'hésitez pas à me contacter pour discuter de vos projets, poser des
+        questions ou simplement échanger des idées. Je suis impatient de vous
+        entendre ! Vous avez un projet, une opportunité de stage ou une
+        proposition professionnelle ? Remplissez le formulaire ci-dessous ou
+        utilisez les liens pour me contacter directement.
+      </p>
+      <div class="contact-contenu">
+        <form class="formulaire-contact">
+          <div>
+            <label for="nom">Nom :</label>
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              autocomplete="family-name"
+              required
+            />
+          </div>
+          <div>
+            <label for="prenom">Prénom :</label>
+            <input
+              type="text"
+              id="prenom"
+              name="prenom"
+              autocomplete="given-name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+          <p id="feedback-formulaire" class="feedback" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-liens">
+          <a href="mailto:gnakrijeany001@gmail.com">Email direct</a>
+          <a
+            href="https://www.linkedin.com/in/jean-yves-gnakri-aa7319408?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/GG001CI"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <p>© 2026 Gnakri Jean Yves — Tous droits réservés</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
