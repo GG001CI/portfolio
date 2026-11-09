@@ -71,5 +71,18 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+    // ==========================================
+  // 4. FEEDBACK FORMULAIRE (Formspree)
+  // ==========================================
+  const form = document.querySelector('.formulaire-contact');
+  const feedback = document.getElementById('feedback-formulaire');
+
+  if (form && feedback) {
+    form.addEventListener('submit', () => {
+      // Pas de preventDefault : on laisse Formspree envoyer
+      feedback.textContent = '⏳ Envoi en cours...';
+      feedback.classList.add('visible');
+    });
+  }
 
 });
