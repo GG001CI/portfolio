@@ -903,15 +903,23 @@ footer {
     font-size: 2.2rem;
   }
 
-  .a-propos-contenu {
-    grid-template-columns: 1fr;
-    text-align: center;
+  /* ===== CORRECTION PHOTO MOBILE ===== */
+  .photo-cadre {
+    width: 150px;
+    height: 150px;
   }
 
-  .a-propos-contenu img {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+  /* ===== BOUTONS HERO — empilés proprement ===== */
+  .accueil-actions {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .accueil-actions .btn {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
   }
 
   .contact-contenu {
@@ -925,13 +933,6 @@ footer {
 
   h2 {
     font-size: 1.5rem;
-  }
-
-  #accueil .btn {
-    display: block;
-    width: 100%;
-    max-width: 280px;
-    margin: var(--espace-sm) auto;
   }
 }
 /* ============================================
